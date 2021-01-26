@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img {
+  height: 60px;
+  padding-left: 30px;
+}
+.navbar-nav {
+  padding: 0 10px;
+}
+.navbar-nav a {
+  float: right;
+  text-align: left;
+}
+#nav-bar a:hover {
+  color: #fff !important;
+}
+.navbar {
+  background-color: rgb(240, 242, 245);
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+.nav-link {
+  color: #555;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.d-block {
+  width: 100%;
+}
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial !important;
+}
+.carousel-caption h5 {
+  color: #fff;
+  font-size: 42px;
+}
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #555;
+}
+#about .btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about-content {
+  padding-top: 20px;
+}
+.skills-bar p {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.progress-bar {
+  border-radius: 16px;
+}
+.progress {
+  border-radius: 16px !important;
+  margin-bottom: 20px;
+}
+
+#service {
+  /* background-image: linear-gradient(rgba(0,0,0,0.8),(rgba(0,0,0,0.8)),url(./img/Bannerb.jpg));
+    
+    background-size: cover;
+    background-position: center;
+    color: #efefef!important;
+    background-attachment: fixed;
+    /* padding-top: 50px;
+    padding-bottom: 50px;  */
+  background-image: url("./img/Bannerb.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#service h1 {
+  color: #efefef;
+  text-align: center;
+}
+#service h1::after {
+  content: "";
+  background: #efefef;
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 5px;
+}
